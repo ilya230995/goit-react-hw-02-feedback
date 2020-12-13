@@ -1,0 +1,22 @@
+.feedbackBtn {
+    border-radius: 10px;
+    border: 0;
+    width: 130px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: darkslateblue;
+}
+.feedbackBtn:not(:last-of-type) {
+    margin-bottom: 26px;
+
+}
+.feedbackBtn:nth-of-type(1) {
+    background-color: green;
+}
+.feedbackBtn:nth-of-type(2) {
+    background-color: yellow;
+}
+.feedbackBtn:nth-of-type(3) {
+    background-color: red;
+}

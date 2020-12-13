@@ -1,0 +1,27 @@
+.statisticsFeedback:nth-of-type() {
+
+}
+.statisticsFeedbackItem {
+    background-color: green;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    border-radius: 5pc;
+    color: darkslateblue;
+}
+.statisticsFeedbackItem:nth-of-type(2) {
+    background-color: yellow;
+}
+.statisticsFeedbackItem:nth-of-type(3) {
+    background-color: red;
+}
+.statisticsFeedbackItem:nth-of-type(4) {
+    background-color: gray;
+    
+}
+.statisticsFeedbackItem:nth-of-type(5) {
+    background-color: greenyellow;
+    
+}
+
